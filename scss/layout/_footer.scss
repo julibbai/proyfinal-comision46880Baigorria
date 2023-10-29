@@ -3,6 +3,10 @@ footer img{
     height:2.5rem;
 }
 footer {
+    position: relative;
+    bottom:0;
+    width:100%;
+    padding: 10px;
     height:5.375rem;
     background-color:map-get($colores,color-1);
     @include flex(row, none, space-evenly, center, none);

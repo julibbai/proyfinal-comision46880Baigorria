@@ -6,6 +6,7 @@ header{
     color:map-get($colores,color-1);
     font-family: 'Junge', serif;
     font-size: map-get($font-size, md);
+    font-weight: bold;
     grid-column: 5/6;
     grid-row: 1/2;
     order:2;
@@ -36,6 +37,7 @@ header{
                 &:hover{
                     transform: scale(1.1);
                     font-size:20px;
+                    color: black;
 
                 }
             }
@@ -47,4 +49,15 @@ header{
     height:100%;
     grid-column:1/6;
     grid-row:2/3;
+}
+
+.menu-hamburguesa img{
+    width: 100%;
+}
+
+.menu-hamburguesa{
+    width: 50px;
+    cursor: pointer;
+    padding:10px;
+    display: none;
 }
