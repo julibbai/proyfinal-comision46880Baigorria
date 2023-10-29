@@ -1,0 +1,9 @@
+footer img{
+    width:2.5rem;
+    height:2.5rem;
+}
+footer {
+    height:5.375rem;
+    background-color:map-get($colores,color-1);
+    @include flex(row, none, space-evenly, center, none);
+}

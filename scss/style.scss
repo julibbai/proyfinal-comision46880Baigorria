@@ -1,0 +1,27 @@
+/*utilities*/
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./utilities/maps";
+
+/*base*/
+
+@import "./base/reset";
+
+/*layout*/
+
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/footer";
+@import "./layout/main-clases";
+@import "./layout/main-contacto";
+@import "./layout/main-faqs";
+
+/*components*/
+
+/*mediaquerys*/
+
+@import "./layout/media320-index";
+@import "./layout/media768-index";
+@import "./layout/media320-clases";
+@import "./layout/media320-contacto";
+@import "./layout/media320-faqs";

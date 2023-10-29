@@ -1,0 +1,79 @@
+.main-index{
+    background-color:map-get($colores,color-1);
+    font-family: 'Junge', serif;
+
+    .container-cards{
+        .card{
+
+    background-color:map-get($colores,color-1);
+    border-radius: .625rem;
+    overflow: hidden; 
+    box-shadow: 2px 2px .625rem rgba(128, 128, 128, 0.288);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    @include flex(row, nowrap, space-evenly,center, none);
+
+        }
+        .oraciones1{
+            justify-content:space-evenly;
+            text-align: center;  
+            color:map-get($colores,color-4);
+            font-family: 'Junge', serif;
+        }
+
+    }
+
+    .titulo2{
+        color:map-get($colores,color-4);
+        font-weight: 900;
+    }
+
+    .second-container{
+        background-color:map-get($colores,color-1);
+        overflow: hidden;
+        border-radius: .625rem;
+        @include flex(row, nowrap, space-evenly, center, none);
+
+        .second-card{
+
+            overflow: hidden; 
+            @include flex(row, nowrap, space-evenly, none, none);
+            .second-container img{
+                width:97%;
+            }
+        }
+    }
+
+    .tercer-container{
+        background-color:map-get($colores,color-1);
+        @include flex(row, nowrap, space-evenly, none, none);
+        overflow: hidden;
+        margin-top: 100px;
+        margin-bottom: 50px;    
+        
+            .tercer-card{
+                @include flex(row, nowrap, space-evenly, none, none);
+                border-radius: .625rem;
+                    .img{
+                        width:99%;
+                    }
+            }
+    }
+}
+
+.impar {
+    width: 47rem;
+    height: 7.125rem;
+    color:map-get($colores,color-3);
+    background-color:map-get($colores,color-2);
+    text-align: center;
+}
+
+.par{
+    width: 47rem;
+    height: 7.125rem;
+    color: #F8F0E5;
+    color:map-get($colores,color-3);
+    background-color:map-get($colores,color-4);
+    text-align:center;
+}

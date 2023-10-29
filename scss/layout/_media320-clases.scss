@@ -1,0 +1,51 @@
+@media(max-width:320px){
+
+    .clases1{
+        font-family: 'Junge', serif;
+        font-size:20px;
+        color:map-get($colores,color-3);
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color:map-get($colores,color-2);
+    
+    }
+    .container-clases{
+        width: 100%;
+        background-color:map-get($colores,color-1);
+        color:map-get($colores,color-2);
+        font-family: 'Junge', serif;
+        width: 100%;
+        @include grid(1fr, 1fr 1fr 1fr 1fr,none, center, 15px);
+    
+    }
+    
+    .clases11{
+    
+        height: 80px;
+        background-color:map-get($colores,color-3);
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    
+    .clases12{
+        height: 80px;
+        background-color:map-get($colores,color-3);
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    
+    .clases13{
+        height: 80px;
+        background-color:map-get($colores,color-3);
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    
+    .clases14{
+        height: 80px;
+        background-color:map-get($colores,color-3);
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+}

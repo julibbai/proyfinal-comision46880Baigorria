@@ -1,0 +1,53 @@
+@media(max-width:768px){
+
+
+    header{
+        font-size:medium;
+    }
+    .titulo2{
+        font-size: 30px;
+    }
+    .navbar {
+        height:3.6875rem;
+        list-style: none;
+        background-color:map-get($colores,color-2);
+        @include flex(row, wrap, space-evenly,center,none);
+
+    }
+
+    .navbar li a{
+        text-decoration:none;
+        font-family: 'Junge', serif;
+        font-size: 15px;
+        color:#F8F0E5;
+        color:map-get($colores,color-3);
+    }
+
+    .card{
+        @include flex(column, wrap, space-evenly, none, none);
+    }
+.card img{
+    display: none;
+}
+
+
+    .second-container img{
+        display: none;
+    }
+    .tercer-container img{
+        display:none;
+    }
+
+    .par{
+        font-size: 20px;
+        height: 50px;
+    }
+    .impar{
+        font-size: 20px;
+        height: 50px;
+    }
+
+    .tercer-container{
+        margin-top: -1px;
+    }
+}
