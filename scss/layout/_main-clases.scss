@@ -24,7 +24,13 @@ color:map-get($colores,color-2);
     @include grid(1fr 1fr, 1fr 1fr, none, center, 20px);
 }
 
-.clases11{
+h3:hover{
+    color:map-get($colores,color-1);
+    background-color:map-get($colores,color-5);
+    border-radius: 10px;
+    }
+
+.clases11{  
 
     height: 150px;
     background-color:map-get($colores,color-3);

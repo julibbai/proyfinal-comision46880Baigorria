@@ -1,7 +1,8 @@
 @media(max-width:320px){
 
-    .faqsfondo{
+    .main-faqs{
         background-color:map-get($colores,color-1);
+        margin-top: -95px;
     }
     
     .sectionfaqs{
@@ -44,5 +45,9 @@
         background-color:map-get($colores,color-4);
         margin-left: 0px;
         text-align:center;
+    }
+    .respuesta1, .respuesta2, .respuesta3, .respuesta4, .respuesta5, .respuesta6{
+        font-size:small;
+        font-family: 'Junge', serif; 
     }
     }

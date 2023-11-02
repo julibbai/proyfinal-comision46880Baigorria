@@ -76,7 +76,7 @@ display: none;
         justify-content: space-evenly;
         color:map-get($colores,color-3);
         background-color:map-get($colores,color-5);
-        font-size: 15px;
+        font-size: 2px;
         margin-left: 100px;
 
 
@@ -87,7 +87,7 @@ display: none;
         color:map-get($colores,color-3);
         background-color:map-get($colores,color-4);
         justify-content: space-evenly;
-        font-size: 15px;
+        font-size: 2px;
         width: 320px;
         margin-left: 100px;
     }
@@ -109,4 +109,5 @@ display: none;
     main-index{
         background-color: none;
     }
+
     }

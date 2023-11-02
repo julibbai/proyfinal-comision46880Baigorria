@@ -217,6 +217,11 @@ footer {
   align-content: center;
   gap: 20px;
 }
+.main-clases h3:hover {
+  color: #EADBC8;
+  background-color: #60888F;
+  border-radius: 10px;
+}
 .main-clases .clases11 {
   height: 150px;
   background-color: #F8F0E5;
@@ -240,6 +245,10 @@ footer {
   background-color: #F8F0E5;
   grid-column: 2/3;
   grid-row: 2/3;
+}
+
+.main-contacto {
+  margin-top: -20px;
 }
 
 .formcontacto {
@@ -306,6 +315,7 @@ footer {
   height: 70px;
   width: 100%;
   text-align: center;
+  font-family: "Junge", serif;
 }
 
 .pregunta2, .pregunta4, .pregunta6 {
@@ -313,6 +323,12 @@ footer {
   width: 100%;
   background-color: #0e272c;
   text-align: center;
+  font-family: "Junge", serif;
+}
+
+.respuesta1, .respuesta2, .respuesta3, .respuesta4, .respuesta5, .respuesta6 {
+  font-size: medium;
+  font-family: "Junge", serif;
 }
 
 /*components*/
@@ -396,7 +412,7 @@ footer {
     justify-content: space-evenly;
     color: #F8F0E5;
     background-color: #60888F;
-    font-size: 15px;
+    font-size: 2px;
     margin-left: 100px;
   }
   .par {
@@ -404,7 +420,7 @@ footer {
     color: #F8F0E5;
     background-color: #0e272c;
     justify-content: space-evenly;
-    font-size: 15px;
+    font-size: 2px;
     width: 320px;
     margin-left: 100px;
   }
@@ -484,6 +500,9 @@ footer {
   }
 }
 @media (max-width: 320px) {
+  .main-clases {
+    margin-top: -108px;
+  }
   .clases1 {
     font-family: "Junge", serif;
     font-size: 20px;
@@ -532,6 +551,9 @@ footer {
   }
 }
 @media (max-width: 320px) {
+  .main-contacto {
+    margin-top: -125px;
+  }
   .formcontacto {
     background-color: #60888F;
     font-family: "Junge", serif;
@@ -539,8 +561,9 @@ footer {
   }
 }
 @media (max-width: 320px) {
-  .faqsfondo {
+  .main-faqs {
     background-color: #EADBC8;
+    margin-top: -95px;
   }
   .sectionfaqs {
     background-color: #EADBC8;
@@ -573,6 +596,10 @@ footer {
     background-color: #0e272c;
     margin-left: 0px;
     text-align: center;
+  }
+  .respuesta1, .respuesta2, .respuesta3, .respuesta4, .respuesta5, .respuesta6 {
+    font-size: small;
+    font-family: "Junge", serif;
   }
 }
 

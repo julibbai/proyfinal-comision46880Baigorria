@@ -35,6 +35,7 @@ justify-content: center;
     height: 70px;
     width:100%;
     text-align: center;
+    font-family: 'Junge', serif; 
 
 }
 
@@ -43,4 +44,10 @@ justify-content: center;
     width: 100%;
     background-color:map-get($colores,color-4);
 text-align: center;
+font-family: 'Junge', serif; 
+}
+
+.respuesta1, .respuesta2, .respuesta3, .respuesta4, .respuesta5, .respuesta6{
+    font-size:medium;
+    font-family: 'Junge', serif; 
 }
